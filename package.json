@@ -1,0 +1,18 @@
+{
+   "name": "node-app",
+   "description": "hello my node-app",
+   "version": "0.0.1",
+   "private": true,
+   "scripts": {
+      "dev": "nodemon index.js",
+      "test": "jest --forceExit"
+   },
+   "dependencies": {
+      "express": "3.12.0"
+   },
+   "devDependencies": {
+      "jest": "^26.6.3",
+      "mocha": "1.20.1",
+      "supertest": "0.13.0"
+   }
+}
